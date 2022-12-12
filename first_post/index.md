@@ -17,7 +17,12 @@ git init
 ### (2)编写客户端和服务端文件
 Vim client.c
 
+<image src="/12.jpeg">
+
 Vim service.c
+
+<image src="/13.jpeg">
+
 ### (3)然后创建代码文件的提交记录
 Git add client.c
 
@@ -68,6 +73,8 @@ hugo --theme=LoveIt --baseUrl="https://qhqhwh.github.io/" --buildDrafts
 
 <image src="/8.jpeg">
 
+<image src="/9.jpeg">
+
 ### (2)使用git在网址文件夹中创建一个空的仓库，推入静态网站文件夹中的内容并与github我们所创建的仓库进行连接
 git init
 
@@ -75,7 +82,13 @@ git add .
 
 git commit -m "first push"
 
+<image src="/10.jpeg">
+
 git remote add origin https://github.com/qhqhwh/qhqhwh.github.io.git
 
 git push -u origin master
+
+<image src="/11.jpeg">
+
+## 7.访问网址
 
